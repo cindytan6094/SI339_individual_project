@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Sweeting AA</title>
+  </head>
+  <body>
+    <a href="#skip" class ="skip">Skip to Main Content</a>
+    <header>
+      <h1>Sweeting Tea & Desserts</h1>
+      <nav>
+        <ul class="nav_links">
+          <li class="nav_item" id="current"><a href="index.html">About</a></li>
+          <li class="nav_item"><a href="gallery.html">Gallery</a></li>
+          <li class="nav_item"><a href="customer.html">Testimonials</a></li>
+          <li><a href="https://www.beyondmenu.com/54953/ann-arbor/sweeting-university-ave--ann-arbor-48104.aspx?utm_source=gmb&utm_medium=order">
+            <img src="images/order.png" alt="Beyond Menu Website to order" class="icon">
+          </a></li>
+        </ul>
+    </nav>
+  </header>
+  <main class="about" id="skip">
+
+      <h2>About</h2>
+      <img id="image3" src="images/Sweeting_storefront.jpeg" alt="Sweeting exterior" />
+      <img id="image4" src="images/sweeting_inside.jpeg" alt="Sweeting interior" />
+      <h2>Menu</h2>
+        <div class="gallery"> 
+          <img id="image1" src="images/sweeting_menu.jpeg" alt="Menu for drinks" style="width: 800px; height: 500px;">
+
+          <img id="image2" src="images/sweeting_menu2.jpeg" alt="Menu for desserts" style="width: 800px; height: 500px;">
+        </div>
+        <div class="maps">
+          <h2>Location</h2>
+          <iframe aria-label = "Location for Sweeting" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.157349582724!2d-83.7342951!3d42.27516440000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae4446231b65%3A0x46c0d5178c2a1550!2s1205%20S%20University%20Ave%2C%20Ann%20Arbor%2C%20MI%2048104!5e0!3m2!1sen!2sus!4v1701117962380!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+      </main>
+
+    <footer>
+      <p>By Cindy Tan<br/>
+        &copy; SI 339- Web Design Fall 2023</p>
+    </footer>
+    
+  <a href="#top" class="back-to-top">Back to Top</a>
+  <script>
+      document.addEventListener("scroll", function () {
+        var backToTopButton = document.querySelector(".back-to-top");
+        if (window.scrollY > 500) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
